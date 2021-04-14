@@ -36,9 +36,9 @@ parser.add_argument('--headless', required=False, help='Optional. Run in headles
                     action='store_false')
 parser.add_argument('--card-number', required=True, help='Your Ontario health card number.')
 parser.add_argument('--invitation-code', required=True,
-                    help='Your Ontario Covaxon invitation code number.')
+                    help='Your Ontario Covaxon Invitation Code number.')
 parser.add_argument('--event-code', required=True,
-                    help='Your Ontario Covaxon event ID number')
+                    help='Your Ontario Covaxon Event ID number.')
 parser.add_argument('--location', required=True,
                     help='The nearest city to your location. Please verify that it is in an accepted format. Example: Ottawa, ON, Canada')
 parser.add_argument('--pushover-user', required=False,
