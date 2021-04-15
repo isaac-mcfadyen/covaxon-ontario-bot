@@ -1,4 +1,4 @@
-# Covaxon Ontario
+# Covaxon Ontario Bot
 A web bot to assist in Covaxon Ontario's COVID-19 vaccine booking.  
   
 There currently seem to be challenges with the Ontario Covaxon booking system; it provides different booking slots and locations every time you re-enter your details, sometimes showing slots that were not there a minute before or making slots vanish after a few seconds. This poses a particular problem if you want/need a spot at your local vaccine distribution center.
