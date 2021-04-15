@@ -24,13 +24,13 @@ python3 main.py [arguments]
 
 Arguments can be listed with the --help flag. The following arguments are available:
 ```
---headless - Provide this flag to run in headless mode (no window).
---card - Your Ontario health card number.
---invitation-code - Your Covaxon Invitation Code number.
---event-code - Your Covaxon Event ID number.
---location - The nearest city to your location. Please verify that it is in an accepted format. Example: "Ottawa, ON, Canada" or "Toronto, ON, Canada"
---pushover-user - Provide your Pushover (https://pushover.net) user token here to allow Pushover notifications to your smartphone. If not provided, the default is notifications on the system the program is run on.
---pushover-tolken - Provide your Pushover (https://pushover.net) application token here to allow Pushover notifications to your smartphone. If not provided, the default is notifications on the system the program is run on.
+--card - Required. Your Ontario health card number.
+--invitation-code - Required. Your Covaxon Invitation Code number.
+--event-code - Required. Your Covaxon Event ID number.
+--location - Required. The nearest city to your location. Please verify that it is in an accepted format. Example: "Ottawa, ON, Canada" or "Toronto, ON, Canada"
+--pushover-user - Optional. Provide your Pushover (https://pushover.net) user token here to allow Pushover notifications to your smartphone. If not provided, the default is notifications on the system the program is run on.
+--pushover-tolken - Optional. Provide your Pushover (https://pushover.net) application token here to allow Pushover notifications to your smartphone. If not provided, the default is notifications on the system the program is run on.
+--headless - Optional. Provide this flag to run in headless mode (no window).
 ```
 
 Any locations you wish to ignore can be placed in ignoreList.txt (case-sensitive and must exactly match; it is recommended to Copy & Paste the location you wish to ignore from your results directly into the file).
