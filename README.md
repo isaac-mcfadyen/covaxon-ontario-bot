@@ -1,4 +1,5 @@
 # Covaxon Ontario Bot
+## Deprecated. Issues with the online system seem to have been fixed and this is no longer needed (and likely does not work).
 A web bot to assist in Covaxon Ontario's COVID-19 vaccine booking, built using Python 3.
   
 There currently seem to be challenges with the Ontario Covaxon booking system; it provides different booking slots and locations every time you re-enter your details, sometimes showing slots that were not there a minute before or making slots vanish after a few seconds. This poses a particular problem if you want/need a spot at your local vaccine distribution center.
@@ -34,11 +35,3 @@ Arguments can be listed with the --help flag. The following arguments are availa
 ```
 
 Any locations you wish to ignore can be placed in ignoreList.txt (case-sensitive and must exactly match; it is recommended to Copy & Paste the location you wish to ignore from your results directly into the file).
-## Contributing
-All pull requests are welcome! Guidelines are provided [here](CONTRIBUTING).
-
-## Donations
-
-If you like this program, consider buying me a cup of coffee.  
-  
-[![Donate](https://github.com/Ximi1970/Donate/blob/master/paypal_btn_donateCC_LG_1.gif)](https://paypal.me/mcfadyeni)
